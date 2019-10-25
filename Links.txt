@@ -1,6 +1,13 @@
+//Arduino Sotware Link
+https://www.arduino.cc/en/Main/Donate
+
+//ESP8266 Library Package
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+//MQTT Fx Sotware link
 http://www.jensd.de/apps/mqttfx/1.7.1/mqttfx-1.7.1-windows.exe
 
-
+//Adafruit Cloud
 https://io.adafruit.com/
 
 https://ifttt.com/

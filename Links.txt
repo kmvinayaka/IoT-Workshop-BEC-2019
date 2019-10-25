@@ -1,0 +1,11 @@
+http://www.jensd.de/apps/mqttfx/1.7.1/mqttfx-1.7.1-windows.exe
+
+
+https://io.adafruit.com/
+
+https://ifttt.com/
+
+https://github.com/esp8266/Arduino/releases/download/2.3.0/package_esp8266com_index.json
+
+
+

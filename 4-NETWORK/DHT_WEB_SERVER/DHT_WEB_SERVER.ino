@@ -43,7 +43,8 @@ Serial.println(WiFi.localIP());
 
 void loop() {
 
- float humidityTemp = dht.getHumidity();
+delay(dht.getMinimumSamplingPeriod());
+float humidityTemp = dht.getHumidity();
 float celsiusTemp = dht.getTemperature();
 float fahrenheitTemp=dht.toFahrenheit(celsiusTemp);
 

@@ -11,16 +11,16 @@ void setup()
 
 void loop()
 {
-  int duration1, dist1;
+  int duration, distance;
   digitalWrite(TRIGGER, LOW); // make trigger low
   delayMicroseconds(2);
   digitalWrite(TRIGGER, HIGH); // make trigger high
   delayMicroseconds(10); //give 10 microsec delay
   digitalWrite(TRIGGER, LOW);
-  duration1 = pulseIn(ECHO, HIGH);
-  dist1 = duration1*0.034 / 2; // calibrate the distance using pulse
+  duration = pulseIn(ECHO, HIGH);
+  distance = duration1*0.034 / 2; // calibrate the distance using pulse
   Serial.print("distance in cm: ");
-  Serial.println(dist1); // Print the distance value
+  Serial.println(distance); // Print the distance value
   delay(1000);
 
 }

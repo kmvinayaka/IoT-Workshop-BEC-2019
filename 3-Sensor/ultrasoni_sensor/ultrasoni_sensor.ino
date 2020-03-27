@@ -18,7 +18,7 @@ void loop()
   delayMicroseconds(10); //give 10 microsec delay
   digitalWrite(TRIGGER, LOW);
   duration = pulseIn(ECHO, HIGH);
-  distance = duration1*0.034 / 2; // calibrate the distance using pulse
+  distance = duration*0.034 / 2; // calibrate the distance using pulse
   Serial.print("distance in cm: ");
   Serial.println(distance); // Print the distance value
   delay(1000);
